@@ -12,13 +12,12 @@
     <img src="images/forest-gump-bench.gif" alt="forest gump" class="center">
     <h2> Subscribe below: </h2>
 
-    <form id="usr-info" action="subscribed.htm" onsubmit="getInput();">
-        First name: <input type="text" name="fname" placeholder="Wiki"><br>
-        Last name: <input type="text" name="lname" placeholder="Walker"><br>
-        Email: <input type="text" name="email" placeholder="wikiwalker@gmail.com"><br><br>
+    <form id="usr-info" type = "text" action="process_form.php" method="post">
+        First name: <input name="fname" placeholder="Wiki"><br>
+        Last name: <input name="lname" placeholder="Walker"><br>
+        Email: <input name="email" placeholder="wikiwalker@gmail.com"><br><br>
         <input id="subscribe_button" type="submit" value="Feeling Wiki?">
       </form>
-    <script src="../static/scripts.js"></script>
 
 </body>
 </html>
